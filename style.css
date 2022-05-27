@@ -1,3 +1,9 @@
+:root {
+  --secondsDegree: 0;
+  --minutesDegree: 0;
+  --hoursDegree: 0;
+}
+
 #face {
   background-color: #f3f3f3;
   width: 300px;
@@ -20,6 +26,7 @@
   background-color: red;
   height: 130px;
   width: 2px;
+  transform: rotate(0deg);
 }
 
 #hour {
@@ -33,5 +40,5 @@
   background-color: grey;
   height: 120px;
   width: 4px;
-  transform: rotate(255deg);
+  transform: rotate(275deg);
 }
